@@ -5,3 +5,5 @@ dist/
 .DS_Store
 storybook-static/
 .env*
+packages/tokens/dist/css/variables.css
+packages/tokens/dist/js/tokens.js

@@ -2,11 +2,19 @@
   "name": "@collective-discovery/tokens",
   "version": "0.0.1",
   "private": false,
+  "type": "module",
   "scripts": {
+    "convert": "node src/figma/convert.mjs",
     "build": "node build.mjs",
-    "dev": "node --watch build.mjs"
+    "dev": "node --watch build.mjs",
+    "convert:build": "node src/figma/convert.mjs && node build.mjs"
   },
   "devDependencies": {
     "style-dictionary": "^4.0.0"
+  },
+  "dependencies": {
+    "@mantine/core": "^8.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

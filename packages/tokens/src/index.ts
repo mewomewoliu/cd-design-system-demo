@@ -1,1 +1,2 @@
-// Token exports — populated in Phase 2
+export { theme } from './theme';
+export type { MantineTheme } from '@mantine/core';
