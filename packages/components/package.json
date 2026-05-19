@@ -1,0 +1,26 @@
+{
+  "name": "@collective-discovery/components",
+  "version": "0.0.1",
+  "private": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@mantine/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@collective-discovery/tokens": "workspace:*"
+  }
+}

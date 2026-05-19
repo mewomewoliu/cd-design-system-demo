@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@collective-discovery/tokens": ["../tokens/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

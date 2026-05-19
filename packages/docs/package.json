@@ -1,0 +1,14 @@
+{
+  "name": "@collective-discovery/docs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@collective-discovery/tokens": "workspace:*",
+    "@collective-discovery/components": "workspace:*"
+  }
+}
